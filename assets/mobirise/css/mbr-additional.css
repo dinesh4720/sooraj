@@ -40,14 +40,20 @@ margin-inline: 10px;
 }
 
 .wave{
-  animation: mymove 2s infinite;
-  width: 70px;
+  animation-name: mymove; 
+  animation-duration: 2.5s;      
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%; 
 }
 @keyframes mymove {
-  0%   {transform: rotate(0deg);}
-  25%  {transform: rotate(25deg);}
-  0%  {transform: rotate(0deg);}
-  25% {transform: rotate(25deg);}
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) } 
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
 }
 .txt-bold{
   font-weight: 700;
