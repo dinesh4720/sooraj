@@ -40,7 +40,7 @@ margin-inline: 10px;
 }
 
 .wave{
-  animation: mymove 5s infinite;
+  animation: mymove 2s infinite;
   width: 70px;
 }
 @keyframes mymove {
@@ -48,6 +48,10 @@ margin-inline: 10px;
   25%  {transform: rotate(25deg);}
   0%  {transform: rotate(0deg);}
   25% {transform: rotate(25deg);}
+}
+.txt-bold{
+  font-weight: 700;
+  color: #205ac5;
 }
 
 .display-1 {
