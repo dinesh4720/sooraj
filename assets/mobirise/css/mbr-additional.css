@@ -78,8 +78,9 @@ margin-inline: 10px;
 }
 .display-4 {
   font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
+  font-weight:300 !important;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.375rem;
